@@ -4,3 +4,12 @@ Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.3
 joblib==1.0.1
+MarkupSafe==1.1.1
+numpy==1.17.0
+scikit-learn==0.24.1
+scipy==1.5.0
+threadpoolctl==2.1.0
+torch-utils==0.1.2
+typing-extensions==3.7.4.3
+Werkzeug==1.0.1
+wincertstore==0.2
