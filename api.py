@@ -822,4 +822,4 @@ def upload_predict():
     return render_template("index.html",prediction=0,image_loc = None)
 
 if __name__ == "__main__":
-    app.run(port = 12000,debug=True)
+    app.run(port = process.env.PORT || 12000,debug=True)
