@@ -55,7 +55,6 @@ scipy
 Send2Trash==1.5.0
 six 
 sklearn==0.0
-sklearn-contrib-lightning 
 terminado
 testpath==0.4.4
 threadpoolctl
