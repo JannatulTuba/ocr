@@ -7,7 +7,7 @@ bleach
 certifi==2020.12.5
 cffi 
 click==7.1.2
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+colorama 
 cycler==0.10.0
 decorator==4.4.2
 defusedxml
@@ -30,40 +30,40 @@ mistune
 nbclient 
 nbconvert 
 nbformat
-nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
-notebook @ file:///D:/bld/notebook_1616419472987/work
-numpy @ file:///D:/bld/numpy_1616933441329/work
+nest-asyncio 
+
+numpy
 opencv-python==4.5.1.48
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+packaging 
 pandocfilters==1.4.2
-parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+parso 
+pickleshare 
 Pillow==8.1.2
-prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1605543085815/work
-prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+prometheus-client 
+prompt-toolkit
+pycparser 
+Pygments 
 pyparsing==2.4.7
-pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+pyrsistent 
 python-dateutil==2.8.1
-python-Levenshtein @ file:///D:/bld/python-levenshtein_1612200656976/work
+python-Levenshtein
 pywin32==300
-pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
-pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
-scikit-learn @ file:///D:/bld/scikit-learn_1611079981849/work
-scipy @ file:///C:/bld/scipy_1616878843131/work
+pywinpty 
+pyzmq
+scikit-learn 
+scipy 
 Send2Trash==1.5.0
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+six 
 sklearn==0.0
-sklearn-contrib-lightning @ file:///D:/bld/sklearn-contrib-lightning_1608504361273/work
-terminado @ file:///D:/bld/terminado_1617048799047/work
+sklearn-contrib-lightning 
+terminado
 testpath==0.4.4
-threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
-tornado @ file:///D:/bld/tornado_1610094858390/work
+threadpoolctl
+tornado
 tqdm==4.59.0
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
-wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+traitlets 
+wcwidth
 webencodings==0.5.1
 Werkzeug==1.0.1
 wincertstore==0.2
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+zipp 
