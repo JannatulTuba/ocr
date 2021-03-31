@@ -1,4 +1,4 @@
-argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+argon2-cffi 
 async-generator==1.10
 attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
 backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
