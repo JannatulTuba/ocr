@@ -11,7 +11,7 @@ MarkupSafe==1.1.1
 matplotlib==3.3.4
 numpy
 olefile==0.46
-opencv-python==4.5.1.48
+python3-opencv
 Pillow
 pyarrow==3.0.0
 pyparsing==2.4.7
