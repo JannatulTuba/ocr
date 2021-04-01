@@ -683,11 +683,11 @@ def img_path(path):
                 words, labels, labels_size, inv_grapheme_dict_ = get_padded_labels(idxs, grapheme_dict, inv_grapheme_dict, words_i, labels_i, lengths_i)
                 preds = model(inp)
                 labels = torch.tensor(labels, dtype=torch.long)
-                labels.cuda()
+               # labels.cuda()
                 labels_size = torch.tensor(labels_size, dtype=torch.long)
-                labels_size.cuda()
+             #   labels_size.cuda()
                 preds_size = torch.tensor([preds.size(0)] * batch_size, dtype=torch.long) 
-                preds_size.cuda()
+             #   preds_size.cuda()
 
                 #validation loss
                 loss = criterion(preds, labels, preds_size, labels_size)
