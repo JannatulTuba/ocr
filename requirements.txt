@@ -32,7 +32,7 @@ nbconvert
 nbformat
 nest-asyncio 
 
-numpy
+
 opencv-python==4.5.1.48
 packaging 
 pandocfilters==1.4.2
@@ -47,11 +47,9 @@ pyparsing==2.4.7
 pyrsistent 
 python-dateutil==2.8.1
 python-Levenshtein
-
 pywinpty 
 pyzmq
 scikit-learn 
-scipy 
 Send2Trash==1.5.0
 six 
 sklearn==0.0
@@ -66,3 +64,8 @@ webencodings==0.5.1
 Werkzeug==1.0.1
 wincertstore==0.2
 zipp 
+gunicorn==19.9.0
+Jinja2==2.10.1
+numpy>=1.9.2
+scipy>=0.15.1
+pandas>=0.19
