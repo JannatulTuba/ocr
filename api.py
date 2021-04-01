@@ -803,7 +803,7 @@ def img_path(path):
     
     return validate(metrics1,metrics2,file_namelist)
 ##########################################################
-@app.route("/",methods = ["GET", "POST"])
+@app.route("templates/index.html",methods = ["GET", "POST"])
 def upload_predict():
     if request.method =="POST":
         image_file  = request.files["image"]
