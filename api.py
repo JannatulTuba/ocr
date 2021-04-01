@@ -803,23 +803,7 @@ def img_path(path):
     
     return validate(metrics1,metrics2,file_namelist)
 ##########################################################
-@app.route("/upload_predict",methods = ["GET", "POST"])
-def upload_predict():
-    if request.method =="POST":
-        image_file  = request.files["image"]
-        if image_file:
-            image_location = os.path.join(
-                UPLOAD_FOLDER,
-                image_file.filename
-            )
-            image_file.save(image_location)
-            print(image_location)
-            pred = img_path(image_location)
-           # print(pred)
-            return render_template("index.html",prediction=pred , image_loc = image_file.filename)
-
-
-    return render_template("index.html",prediction=0,image_loc = None)
+print("ffffffffffffffffff")
 
 if __name__ == "__main__":
     app.run(debug=True)
