@@ -1,3 +1,4 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 argon2-cffi 
 async-generator==1.10
 attrs 
@@ -65,3 +66,5 @@ gunicorn==19.9.0
 numpy>=1.9.2
 scipy>=0.15.1
 pandas>=0.19
+torch==1.8.1+cpu
+torchvision == 0.7.0+cpu
