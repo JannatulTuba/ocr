@@ -30,7 +30,7 @@ import torch.nn.functional as F
 
 app = Flask (__name__)
 UPLOAD_FOLDER ="static"
-DEVICE = "cuda"
+DEVICE = "cpu"
 MODEL = None
 
 
@@ -592,7 +592,7 @@ np.random.seed(42)
 
 model = get_crnn()
 
-model = model.cuda()
+#model = model.cuda()
 
 with open('inv_grapheme_dict.pkl', 'rb') as handle:
     inv_grapheme_dict = pickle.load(handle)
@@ -610,7 +610,7 @@ model.load_state_dict(torch.load('epoch59.pth' )) #, map_location='cpu'
 model.eval()
 
 criterion = torch.nn.CTCLoss(blank =0, reduction='mean', zero_infinity = True)
-criterion = criterion.cuda()
+#criterion = criterion.cuda()
 
 #ocr_dataset = OCRDataset('dataset/images')
 #/home/imr555/Desktop/Apurba_Job/Day_12/model_inference/WordLevelBanglaOCRv1/out_synthetic_seperate
@@ -673,7 +673,7 @@ def img_path(path):
             batch_loss = 0
             for i, (inp, img_names, idx) in enumerate(tqdm(inference_loader)):
 
-                inp = inp.cuda()
+              #  inp = inp.cuda()
                 batch_size = inp.size(0)
     #             print("batch_size: ")
     #             print(batch_size)
