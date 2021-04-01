@@ -30,3 +30,4 @@ tqdm==4.59.0
 typing-extensions
 Werkzeug==1.0.1
 wincertstore==0.2
+gunicorn==19.0.0
