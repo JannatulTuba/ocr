@@ -606,7 +606,7 @@ grapheme_dict = {v: k for k, v in inv_grapheme_dict.items()}
 
 
 #Path to model
-model.load_state_dict(torch.load('epoch59.pth')) #, map_location='cpu'
+model.load_state_dict(torch.load('https://github.com/JannatulTuba/ocr/blob/ab560ea14d17370ea0ade022170c74a26cdca7dc/epoch59.pth')) #, map_location='cpu'
 model.eval()
 
 criterion = torch.nn.CTCLoss(blank =0, reduction='mean', zero_infinity = True)
